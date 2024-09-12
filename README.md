@@ -1,18 +1,11 @@
 ## Welcome to Acacian's Github!
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=koo9811)](https://solved.ac/koo9811/)
-[![Acacian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Acacian)](https://github.com/anuraghazra/github-readme-stats)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Acacian&layout=compact)
-
----
-
-## Projects
+## My Projects
 
 ### 📝 주식 토론 게시판 백엔드 프로젝트
 [Repository Link](https://github.com/Acacian/Stock)
 
-이 프로젝트는 한 달간 진행된 개인 백엔드 프로젝트로, 주식 토론 게시판을 구현한 것입니다. 간단하지만 프론트엔드 역시 혼자서 구현했습니다. Java 및 Spring Boot를 메인으로 사용하였고 Kafka, Redis, Eureka, WebSocket, WebRTC 등의 최신 백엔드 기술을 활용하여 개발되었습니다.
+이 프로젝트는 한 달간 진행된 개인 백엔드 프로젝트로, 주식 토론 게시판을 구현한 것입니다. 간단하지만 React를 사용해 프론트엔드 역시 혼자서 구현했습니다. Java 및 Spring Boot를 메인으로 사용하였고 Kafka, Redis, Eureka, WebSocket, WebRTC 등의 최신 백엔드 기술을 활용하여 개발되었습니다.
 
 ### 🎮 ONCORE 프로젝트
 [Repository Link](https://github.com/Acacian/ONCORE)
@@ -26,17 +19,26 @@ PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하�
 
 ---
 
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=koo9811)](https://solved.ac/koo9811/)
+[![Acacian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Acacian)](https://github.com/anuraghazra/github-readme-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Acacian&layout=compact)
+
+---
+
 ## Frameworks and Tools
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=Selenium&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Nest.js&logoColor=white"/>
+### Backend
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Nest.js&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+ <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=Selenium&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/>
 
-## Languages
-
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
+### Frontend
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
 
 ## Databases
 
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-6DB33F?style=flat-square&logo=hibernate&logoColor=white"/>
 
 ## IDEs
 
@@ -47,3 +49,4 @@ PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하�
 ## 📫 Contact
 
 - Email: [koo9811@naver.com](mailto:koo9811@naver.com)
+- Blog : [My Naver Blog](https://blog.naver.com/koo9811)
