@@ -4,6 +4,12 @@
 
 ## My Projects
 
+### 🚆 사내 프로젝트 : 한국철도기술연구원 산하 프로젝트
+Gitlab을 사용한 사내 프로젝트를 진행하였습니다.
+- Redis를 도입하여 Token Blacklist를 구현하고, Work 탐색 속도를 단축시켰습니다.
+- 기존의 코드에서 라우터와 함수를 따로 분리해 코드의 재사용성을 극대화시켰습니다.
+- Gitlab-ci와 Pytest를 사용한 CI/CD 환경을 구축하여 하루에도 수백 개의 테스트코드가 사용됩니다.
+
 ### 📝 주식 토론 게시판 백엔드 프로젝트
 [Repository Link](https://github.com/Acacian/Stock)
 
