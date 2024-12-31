@@ -1,4 +1,4 @@
-# 👋 **제 깃허브에 오신 걸 환영합니다. / Welcome to Acacian's Github!**
+# 👋 **Welcome to Acacian's Github!**
 
 <br>
 
