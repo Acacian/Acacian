@@ -4,17 +4,17 @@
 
 ## My Projects
 
-### 🚆 공공기관 연계 프로젝트 : 한국철도기술연구원 산하 프로젝트(전체 기간 : 24.02.15 ~ 25.12.31 / 24.12.02부터 합류 - 국가연구자번호 1330-1778)
-- Language(Framework) : Python(FastAPI) / Backend Infra : Redis, Gitlab / DB : PostgreSQL / API Design Tool : Swagger
-- AWS를 사용하지 않고, 사내 전용 서버에 인프라를 구축하였습니다.
-- Redis를 직접 도입하여 Token Blacklist를 구현하고, Work 탐색 속도를 단축시켰습니다.
+### 🚆 한국철도기술연구원, 한국철도공사 산하 프로젝트(Python)
+- 전체 기간 : 24.02.15 ~ 25.12.31 / 24.12.02부터 입사 후 합류 - 국가연구자번호 1330-1778
+- Language(Framework) : Python(FastAPI) / Backend Infra : Redis, Gitlab / DB : PostgreSQL, SQLAlchemy(ORM) / API Design Tool : Swagger
+- AWS를 사용하지 않고, 사내 전용 Private 서버에 인프라를 구축하였습니다.
+- Redis 도입을 건의하여 Token Blacklist를 구현하고, Work 탐색 속도를 단축시켰습니다.
 - 기존의 코드에서 라우터와 함수를 따로 분리하고, 대부분의 기능들을 모듈화하여 코드의 재사용성을 극대화시켰습니다.
 - Gitlab-ci와 Pytest를 사용한 CI/CD 환경을 구축하여 하루에도 수백 개의 테스트코드가 사용됩니다.
-- 해당 프로젝트를 하면서, 기량향상을 위해 개인 프로젝트(Java : Redis, Kafka / Python : AI, Data / React-Native : App Frontend)를 진행하고 있습니다.
+- 해당 프로젝트를 하면서, 기량향상을 위해 사이드 프로젝트를 진행하고 있습니다.
 
-### 📝 주식 토론 게시판 백엔드 프로젝트
+### 📝 주식 토론 게시판 백엔드 프로젝트(Java)
 [Repository Link](https://github.com/Acacian/Stock)
-
 이 프로젝트는 한 달간 Java를 익히기 위해 진행된 개인 백엔드 프로젝트로, 주식 토론 게시판을 구현한 것입니다. 간단하지만 React를 사용해 프론트엔드 역시 혼자서 구현했습니다. Java 및 Spring Boot를 메인으로 사용하였고 Kafka, Redis, Eureka, WebSocket 등의 최신 백엔드 기술을 활용하여 개발되었습니다.
 
 ### 🎮 ONCORE 프로젝트
