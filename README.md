@@ -6,9 +6,9 @@
 
 ### 🚆 한국철도기술연구원, 한국철도공사 산하 공공기관 프로젝트(Python - FastAPI)
 - 전체 기간 : 24.02.15 ~ 25.12.31 / 24.12.02부터 입사 후 합류 - 국가연구자번호 1330-1778
-- Language(Framework) : Python(FastAPI) / Backend Infra : Redis, Gitlab / DB : PostgreSQL, SQLAlchemy(ORM) / API Design Tool : Swagger
+- Language(Framework) : Python(FastAPI) / Backend Infra : Redis, Gitlab / DB : PostgreSQL, SQLAlchemy(ORM) / API Design Tool : Swagger(직접 일부를 Custom해서 사용)
 - 보안 때문에 AWS 등 클라우드 서비스를 사용하지 않고, 사내 전용 서버에 인프라를 구축하였습니다.
-- Redis 도입을 건의하여 Token Blacklist를 구현하고, Work 탐색 속도를 단축시켰습니다.
+- Redis 도입을 건의하여 Token Blacklist를 구현하고, 작업 탐색 속도를 단축시켰습니다. 또한 TTL을 상황에 맞게 커스텀하고, AOF를 활용해 데이터 복구가 가능하게 개발했습니다.
 - 기존의 코드에서 라우터와 함수를 따로 분리하고, 대부분의 기능들을 모듈화하여 코드의 재사용성을 극대화시켰습니다.
 - Gitlab-ci와 Pytest를 사용한 CI/CD 환경을 구축하여 하루에도 수백 개의 테스트코드가 사용됩니다.
 - 해당 프로젝트를 하면서, 기량향상을 위해 공부 및 개인 프로젝트를 진행하고 있습니다.
