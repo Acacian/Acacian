@@ -25,6 +25,7 @@ ONCORE는 동료들과 함께 실시간으로 소통하며 알고리즘을 학�
 
 ### 📚 DHPintos 프로젝트(C)
 [Repository Link](https://github.com/Acacian/DHPintos)
+
 PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하고, 시스템 콜, 스케줄링, 멀티스레딩 등의 기능을 테스트했습니다. C 언어를 사용하여 저수준 시스템 프로그래밍을 경험할 수 있는 프로젝트입니다.
 
 ---
