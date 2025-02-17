@@ -15,6 +15,7 @@
 
 ### 📝 주식 토론 게시판 백엔드 프로젝트(Java - Spring Boot)
 [Repository Link](https://github.com/Acacian/Stock)
+
 이 프로젝트는 한 달간 Java를 익히기 위해 진행된 개인 백엔드 프로젝트로, 주식 토론 게시판을 구현한 것입니다. 간단하지만 React를 사용해 프론트엔드 역시 혼자서 구현했습니다. Java 및 Spring Boot를 메인으로 사용하였고 Kafka, Redis, Eureka, WebSocket 등의 최신 백엔드 기술을 활용하여 개발되었습니다.
 
 ### 🎮 ONCORE 프로젝트(Javascript - Nest.js / Typescript - React.js)
