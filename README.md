@@ -4,7 +4,7 @@
 
 ## My Projects
 
-### 🚆 한국철도기술연구원, 한국철도공사 산하 공공기관 프로젝트(Python - FastAPI)
+### 🚆 한국철도기술연구원, 한국철도공사 산하 공공기관 프로젝트(Python - FastAPI / Gitlab)
 - 전체 기간 : 24.02.15 ~ 25.12.31 / 24.12.02부터 입사 후 합류 - 국가연구자번호 1330-1778
 - Language(Framework) : Python(FastAPI) / Backend Infra : Redis, Gitlab / DB : PostgreSQL, SQLAlchemy(ORM) / API Design Tool : Swagger(직접 일부를 Custom해서 사용)
 - 보안 때문에 AWS 등 클라우드 서비스를 사용하지 않고, 사내 전용 서버에 인프라를 구축하였습니다.
