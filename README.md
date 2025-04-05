@@ -6,6 +6,11 @@
 - continuously improving through real-world projects and hands-on experience.
 - Mainly using Python, with Kotlin and Java as sub languages.
 
+## 📫 Contact
+- 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
+- 📝 Blog : [My Naver Blog](https://blog.naver.com/koo9811)
+- 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
+
 <br>
 
 ## My Projects
@@ -61,8 +66,3 @@ PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하�
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/>
 
 ---
-
-## 📫 Contact
-
-- Email: [koo9811@naver.com](mailto:koo9811@naver.com)
-- Blog : [My Naver Blog](https://blog.naver.com/koo9811)
