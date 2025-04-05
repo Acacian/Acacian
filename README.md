@@ -21,6 +21,9 @@
 - 📝 Blog : [My Naver Blog](https://blog.naver.com/koo9811)
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
 
+---
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Acacian)
+
 <br>
 
 ## My Projects
