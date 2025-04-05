@@ -1,4 +1,11 @@
-# 👋 **Welcome to Acacian's Github!**
+# :octocat:  **Welcome to Acacian's Github!**
+
+💁🏻‍♂️ Brief
+- 안녕하세요, 구동하입니다. Hello, I am Dongha Koo.
+: Working as a Backend Developer
+: Mainly using Python, with Kotlin and Java as sub languages.
+: Served in the Air Force for 7 years. Now working as a backend developer,
+continuously improving through real-world projects and hands-on experience.
 
 <br>
 
