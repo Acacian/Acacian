@@ -1,6 +1,6 @@
 # :octocat:  **Welcome to Acacian's Github!**
 
-💁🏻‍♂️ Brief
+##💁🏻‍♂️ Brief
 - 안녕하세요, 구동하입니다. Hello, I am Dongha Koo.
 - Served in the Air Force for 7 years. Now Working as a Backend Developer,
 - continuously improving through real-world projects and hands-on experience.
