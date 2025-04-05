@@ -12,13 +12,15 @@
 - continuously improving through real-world projects and hands-on experience.
 - Mainly using Python, with Kotlin and Java as sub languages.
 
+## 💼 Experience
+- 🛠️ **Koostack** – Backend Developer  
+- 🧠 **MementoAI** – Backend Developer & Project Manager  
+- 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
+
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
 - 📝 Blog : [My Naver Blog](https://blog.naver.com/koo9811)
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
-
----
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Acacian)
 
 <br>
 
@@ -54,3 +56,4 @@ PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하�
 [![Acacian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Acacian)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Acacian&layout=compact)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Acacian)
