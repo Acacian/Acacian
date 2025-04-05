@@ -13,7 +13,7 @@
 - Mainly using Python, with Kotlin and Java as sub languages.
 
 ## 💼 Experience
-- 🛠️ **Koostack** – Backend Developer  
+- 🛠️ **Koostack** – Main Backend Developer  
 - 🧠 **MementoAI** – Backend Developer & Project Manager  
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
