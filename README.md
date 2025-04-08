@@ -14,7 +14,7 @@
 
 ## 💼 Experience
 - 🛠️ **Koostack** – Main Backend Developer  
-- 🧠 **MementoAI** – Backend Developer & Project Manager  
+- 🧠 **MementoAI** – Backend Developer Intern with project manager
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
 ## 📫 Contact
