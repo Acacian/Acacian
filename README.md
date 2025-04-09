@@ -11,6 +11,7 @@
 - Served in the Air Force for several years. Now Working as a Backend Developer,
 - continuously improving through real-world projects and hands-on experience.
 - Mainly using Python, with Kotlin and Java as sub languages.
+- Comfortable with configuring and managing CI/CD pipelines in both GitHub and GitLab environments.
 
 ## 💼 Experience
 - 🛠️ **Koostack** – Main Backend Developer  
