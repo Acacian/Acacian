@@ -14,8 +14,8 @@
 - Comfortable with configuring and managing CI/CD pipelines in both GitHub and GitLab environments.
 
 ## 💼 Experience
-- 🛠️ **Koostack** – Main Backend Developer & DevOps Engineer
-- 🧠 **MementoAI** – Backend Developer Intern with project manager
+- 🛠️ **Koostack** – Backend & DevOps Engineer (End-to-End Ownership)
+- 🧠 **MementoAI** – Backend Engineer Intern with project manager
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
 ## 📫 Contact
