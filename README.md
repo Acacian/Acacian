@@ -56,11 +56,3 @@ ONCORE는 동료들과 함께 실시간으로 소통하며 알고리즘을 학�
 [Repository Link](https://github.com/Acacian/DHPintos)
 
 PintOS 운영체제 프로젝트로, OS의 다양한 기능을 직접 구현하고, 시스템 콜, 스케줄링, 멀티스레딩 등의 기능을 테스트했습니다. C 언어를 사용하여 저수준 시스템 프로그래밍을 경험할 수 있는 프로젝트입니다.
-
----
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=koo9811)](https://solved.ac/koo9811/)
-[![Acacian's GitHub stats](https://github-readme-stats.vercel.app/api?username=Acacian)](https://github.com/anuraghazra/github-readme-stats)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Acacian&layout=compact)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Acacian)
