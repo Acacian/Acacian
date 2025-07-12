@@ -18,6 +18,9 @@
 - Mainly using Python, with Kotlin and Java as sub languages.
 - Comfortable with configuring and managing CI/CD pipelines in both GitHub and GitLab environments.
 
+## 🧑‍💻 Code Contribute
+- 2025 : Spring AI : https://github.com/spring-projects/spring-ai
+
 ## 💼 Experience
 - 🛠️ **Koosstech** – Backend & DevOps Engineer (End-to-End Ownership)
 - 🧠 **MementoAI** – Backend Engineer Intern with project manager
