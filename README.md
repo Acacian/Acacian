@@ -25,7 +25,6 @@
 
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
-- 📝 Blog : [My Naver Blog](https://blog.naver.com/koo9811)
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
 
 <br>
