@@ -23,6 +23,9 @@
 - 🧠 **MementoAI** – Backend Engineer Intern with project manager
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
+## 🌱 Open Source Contributions
+- 🧩 Spring AI – spring-projects/spring-ai : 기여 내용: VectorStoreBuilderCustomizer, @ToolParam 바인딩 개선, DeepSeek 응답 처리 보정 등 주요 PR 작성
+
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
