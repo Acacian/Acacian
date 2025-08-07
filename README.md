@@ -24,7 +24,7 @@
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
 ## 🌱 Open Source Contributions
-- 🧩 **Spring AI** : @ToolParam 바인딩 개선, DeepSeek 응답 처리 보정 등 여러 PR 작성 및 도움
+- 🧩 **Spring AI** : @ToolParam 바인딩 개선, DeepSeek 응답 처리 보정 등 여러 PR 작성 및 도움 / Milestone 및 이전 버전에도 반영 예정
 
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
