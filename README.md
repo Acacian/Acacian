@@ -24,7 +24,9 @@
 - 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
 
 ## 🌱 Open Source Contributions
-- 🧩 **Spring AI** : @ToolParam 바인딩 개선, DeepSeek 응답 처리 보정 등 여러 PR 작성 및 도움 / Milestone 및 이전 버전에도 반영 예정
+- 🧩 **Spring AI** : 여러 PR 작성 및 일부 내용 
+- https://github.com/spring-projects/spring-ai/pull/3809#issuecomment-3343878334 : 테스트코드 생성 및 피드백 제공을 통한 공동 PR
+- https://github.com/spring-projects/spring-ai/pull/3817#event-19521969303 : Milestone 등록, 이전 버전에 반영
 
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
