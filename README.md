@@ -25,8 +25,8 @@
 
 ## 🌱 Open Source Contributions
 - 🧩 **Spring AI** : 여러 PR 작성 및 일부 내용 
-- https://github.com/spring-projects/spring-ai/pull/3809#issuecomment-3343878334 : 테스트코드 생성 및 피드백 제공을 통한 공동 PR
-- https://github.com/spring-projects/spring-ai/pull/3817#event-19521969303 : Milestone 등록, 이전 버전에 반영
+- https://github.com/spring-projects/spring-ai/pull/3809#issuecomment-3343878334 : 테스트코드 생성 및 피드백 제공을 통한 공동 PR로서 테스트코드에 author 등재
+- https://github.com/spring-projects/spring-ai/pull/3817#event-19521969303 : Milestone 등록, 1.0 이전 버전에 관련 이슈 반영
 
 ## 📫 Contact
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
