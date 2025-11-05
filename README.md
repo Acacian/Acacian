@@ -32,6 +32,9 @@
 - 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
 
+## ETC
+- 저희 회사는 Gitlab을 사용하기에, Github 내 Jandi는 부족하지만 Gitlab의 사용도 원활하게 할 수 있습니다.
+
 <br>
 
 ## My Projects
