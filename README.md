@@ -14,7 +14,7 @@
 ## 💁🏻‍♂️ Brief
 - 안녕하세요, 구동하입니다. Hello, I am Dongha Koo.
 - continuously improving through real-world projects and hands-on experience.
-- Mainly using **Python(FastAPI)**, with Kotlin and **Java(Spring Boot)** as sub languages.
+- Mainly using **Python(FastAPI)**, with **Java(Spring Boot)** and Kotlin as sub languages.
 - Comfortable with configuring and managing **CI/CD** pipelines.
 - Use monitoring tools such as **Grafana** and **Loki** to respond to emergencies.
 
