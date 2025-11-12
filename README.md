@@ -13,15 +13,15 @@
 
 ## 💁🏻‍♂️ Brief
 - 안녕하세요, 구동하입니다. Hello, I am Dongha Koo.
-- Served in the Air Force for several years. Now Working as a Backend Developer,
 - continuously improving through real-world projects and hands-on experience.
-- Mainly using Python, with Kotlin and Java as sub languages.
-- Comfortable with configuring and managing CI/CD pipelines in both GitHub and GitLab environments.
+- Mainly using **Python(FastAPI)**, with Kotlin and **Java(Spring Boot)** as sub languages.
+- Comfortable with configuring and managing **CI/CD** pipelines.
+- Use monitoring tools such as **Grafana** and **Loki** to respond to emergencies.
 
 ## 💼 Experience
-- 🛠️ **Koosstech** – Backend & DevOps Engineer (End-to-End Ownership)
-- 🧠 **MementoAI** – Backend Engineer Intern with project manager
-- 🎖️ **Republic of Korea Air Force** – Air defense weapons control/T
+- 🛠️ **Koosstech** – Backend & DevOps Engineer (**End-to-End Ownership**)
+- 🧠 **MementoAI** – Backend Engineer **Intern** with project manager
+- 🎖️ **Republic of Korea Air Force** – Served in Air Defense Weapons Control/T for **7 years**
 
 ## 🌱 Open Source Contributions
 - 🧩 **Spring AI** : 몇 건의 PR을 등록하였으며 그 중 일부 PR은 실제 버전에 반영되었음.
@@ -33,7 +33,8 @@
 - 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
 
 ## ETC
-- 저희 회사는 Gitlab을 사용하기에, Github 내 Jandi는 부족하지만 Gitlab의 사용도 원활하게 할 수 있습니다.
+- Gitlab을 주로 사용하기에, Gitlab의 사용도 원활하게 할 수 있습니다.
+- 이 Github 계정은 자기소개와 동시에 사이드 프로젝트 용도로 활용하고 있습니다.
 
 <br>
 
