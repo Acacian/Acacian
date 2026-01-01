@@ -16,6 +16,7 @@
 - Mainly using **Python(FastAPI)**, with **Java(Spring Boot)** and Kotlin as sub languages.
 - Comfortable with configuring and managing **CI/CD** pipelines.
 - Use monitoring tools such as **Grafana** and **Loki** to respond to emergencies.
+- Tech Blog (https://victorica.tistory.com/ )
 
 ## 💼 Experience
 - 🛠️ **Koosstech** – Backend & DevOps Engineer (**End-to-End Ownership**)
