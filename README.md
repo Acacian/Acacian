@@ -21,8 +21,7 @@
 ## 💼 Experience
 - 🛠️ **Koosstech** – Backend & DevOps Engineer (**End-to-End Ownership**)
 - 🧠 **MementoAI** – Backend Engineer **Intern** with project manager
-- 🎖️ **Republic of Korea Air Force** – Maintained high-stakes system reliability and
-vigilance for **7 years** of military service.
+- 🎖️ **Republic of Korea Air Force** – **7 years** of **mission-critical** system operations and vigilance.
 
 ## 🌱 Open Source Contributions
 - 🧩 **Spring AI** : 몇 건의 PR을 등록하였으며 그 중 일부 PR은 실제 버전에 반영되었음.
