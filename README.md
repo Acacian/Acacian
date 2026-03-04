@@ -14,6 +14,11 @@
 # 구동하 (Dong-ha Koo)
 Backend Engineer — Payment Systems & Distributed Architecture
 
+## Projects
+- PassionPay — MSA 핀테크 결제 플랫폼 (Project Lead, Java 21 + Spring Boot 3.4.5)
+- Insty — 멀티모듈 백엔드, 분산 환경 데이터 정합성 해결
+- kt-pattern — Kotlin Pattern Matching DSL Library
+
 ## 💁🏻‍♂️ Brief
 - Mainly using **Python(FastAPI)**, with **Java(Spring Boot)** and Kotlin as sub languages.
 - Comfortable with configuring and managing **CI/CD** pipelines.
