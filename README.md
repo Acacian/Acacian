@@ -1,44 +1,102 @@
-# :octocat:  **Welcome to Acacian's Github!**
+# :octocat: Welcome to Acacian's Github!
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
 ---
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/JPA-6DB33F?style=flat-square&logo=hibernate&logoColor=white"/>
-
----
-
-<img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white"/>
 
 # 구동하 (Dong-ha Koo)
-Backend Engineer — Payment Systems & Distributed Architecture
 
-## 📦 Projects
-- PassionPay — MSA 핀테크 결제 플랫폼 (Project Lead, Java 21 + Spring Boot 3.4.5)
-- Insty — 멀티모듈 백엔드, 분산 환경 데이터 정합성 해결
-- kt-pattern — Kotlin Pattern Matching DSL Library
+**Backend Engineer — Payment Systems & Distributed Architecture**
 
-## 💁🏻‍♂️ Brief
-- Mainly using **Python(FastAPI)**, with **Java(Spring Boot)** and Kotlin as sub languages.
-- Comfortable with configuring and managing **CI/CD** pipelines.
-- Use monitoring tools such as **Grafana** and **Loki** to respond to emergencies.
-- Tech Blog (https://victorica.tistory.com/ )
+대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드 시스템 설계에 관심이 있습니다.
+신뢰성 있는 서비스 아키텍처와 장애 대응 구조를 설계하는 것을 목표로 합니다.
 
-## 💼 Experience
-- 🛠️ **Koosstech** – Backend & DevOps Engineer (**End-to-End Ownership**)
-- 🧠 **MementoAI** – Backend Engineer **Intern** with project manager
-- 🎖️ **Republic of Korea Air Force** – **7 years** of **mission-critical** system operations and vigilance.
+---
 
-## 🌱 Open Source Contributions
-- 🧩 **Spring AI** : 몇 건의 PR을 등록하였으며 그 중 일부 PR은 실제 버전에 반영되었음.
-- https://github.com/spring-projects/spring-ai/pull/3809 : 테스트코드 생성 및 피드백 제공을 통한 공동 PR
-- https://github.com/spring-projects/spring-ai/pull/3817 : Milestone 등록, 1.0 이전 버전에 관련 이슈 반영
+# 📦 Projects
 
-## 📫 Contact
-- 📧 Email: [koo9811@naver.com](mailto:koo9811@naver.com)
-- 💼 LinkedIn: [linkedin.com/in/otkling](https://www.linkedin.com/in/otkling/)
+### PassionPay  
+MSA 기반 **핀테크 결제 플랫폼** (Project Lead)  
+Java / Spring Boot 기반 결제 서비스 아키텍처 설계 및 구현
 
-## ETC
-- Gitlab을 주로 사용하기에, Gitlab의 사용도 원활하게 할 수 있습니다.
-- 이 Github 계정은 자기소개와 동시에 사이드 프로젝트 용도로 활용하고 있습니다.
+### Insty  
+**운영 중인 라이브 서비스** 백엔드에서  
+대용량 미디어 업로드 처리 안정화 및 트러블슈팅 수행  
+외부 AI 추론 서비스 연동 기능 개발 참여
+
+### kt-pattern  
+Kotlin **Pattern Matching DSL Library**  
+Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
+
+---
+
+# 🎯 Engineering Focus
+
+- 분산 환경에서의 서비스 신뢰성
+- 장애 격리 및 복구 전략 (Circuit Breaker, Retry)
+- 분산 시스템 데이터 정합성
+- 운영 환경 트러블슈팅 및 시스템 안정화
+
+---
+
+# 💼 Experience
+
+**Koosstech**  
+Backend & DevOps Engineer (End-to-End Ownership)
+
+**MementoAI**  
+Backend Engineer Intern
+
+---
+
+# 🎖 Military Service
+
+**Republic of Korea Air Force**  
+7년간 미션 크리티컬 시스템 운영 환경 경험
+
+---
+
+# 🌱 Open Source
+
+**Spring AI**
+
+Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR
+
+- Redis / Vector 관련 테스트 코드 제안 PR  
+  https://github.com/spring-projects/spring-ai/pull/3809
+
+- DeepSeek tool call 응답에서 content=null 발생 시  
+  호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
+  https://github.com/spring-projects/spring-ai/pull/3817
+
+Maintainer와 기술적인 논의를 진행했습니다.
+
+---
+
+# ✍️ Writing
+
+기술적인 고민과 트러블슈팅 과정은 블로그에 정리하고 있습니다.
+
+Tech Blog  
+https://victorica.tistory.com/
+
+Topics
+
+- Redis 없는 화이트박스 모니터링 설계  
+- 분산 시스템 데이터 정합성  
+- Circuit Breaker 구현과 장애 격리 전략  
+
+---
+
+# 📫 Contact
+
+📧 Email  
+koo9811@naver.com  
+
+💼 LinkedIn  
+https://linkedin.com/in/otkling
