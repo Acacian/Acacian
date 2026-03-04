@@ -11,6 +11,10 @@
 
 <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white"/>
 
+# 구동하 (Dong-ha Koo)Backend Engineer
+— Payment Systems & Distributed Architecture<img width="941" height="60" alt="image" src="https://github.com/user-attachments/assets/257958b8-e796-4ff0-b9ee-19740d813bc4" />
+
+
 ## 💁🏻‍♂️ Brief
 - 안녕하세요, 구동하입니다. Hello, I am Dongha Koo.
 - Mainly using **Python(FastAPI)**, with **Java(Spring Boot)** and Kotlin as sub languages.
