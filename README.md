@@ -52,7 +52,7 @@ Backend Engineer Intern
 # 🎖 Military Service
 
 **Republic of Korea Air Force**  
-7년간 미션 크리티컬 시스템 운영 환경 경험
+미션 크리티컬 시스템 운영 환경 경험
 
 ---
 
