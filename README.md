@@ -60,7 +60,7 @@ Backend Engineer Intern
 
 **Spring AI**
 
-- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR
+- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
   https://github.com/spring-projects/spring-ai/pull/3809
   
 - DeepSeek tool call 응답에서 content=null 발생 시  
