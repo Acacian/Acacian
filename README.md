@@ -64,9 +64,9 @@ Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR
 
 - Redis / Vector 관련 테스트 코드 제안 PR  
   https://github.com/spring-projects/spring-ai/pull/3809
-
+  
 - DeepSeek tool call 응답에서 content=null 발생 시  
-  호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
+호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
   https://github.com/spring-projects/spring-ai/pull/3817
 
 Maintainer와 기술적인 논의를 진행했습니다.
