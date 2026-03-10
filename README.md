@@ -6,7 +6,7 @@
 
 # 구동하 (Dong-ha Koo)
 
-**Backend Engineer — Payment Systems & Distributed Architecture**
+**Backend Engineer — Distributed Architecture**
 
 대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드 시스템 설계에  
 관심이 있으며 신뢰성 있는 서비스 아키텍처와 장애 대응 구조를 설계하는 것을 목표로 합니다.
