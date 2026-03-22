@@ -19,8 +19,8 @@
 
 - YAML 기반 AI 에이전트 거버넌스 미들웨어 (Policy engine + Approval gates + Audit trail)
 - PyPI: [`agent-aegis`](https://pypi.org/project/agent-aegis/) | 518+ tests | MIT
-- **MCP Server Registry 등록**: [`io.github.Acacian/aegis`](https://registry.modelcontextprotocol.io/)
-  — Anthropic 공식 MCP Registry에 governance 서버로 등재
+- MCP Server Registry 등록: [`io.github.Acacian/aegis`](https://registry.modelcontextprotocol.io/)  
+  MCP 클라이언트(Claude Desktop 등)에서 검색·설치 가능
 - LangChain, CrewAI, OpenAI, Anthropic, MCP 어댑터 지원
 - https://github.com/Acacian/aegis
 
