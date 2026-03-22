@@ -15,16 +15,7 @@
 
 # 🌱 Open Source
 
-**Aegis — AI Agent Governance Middleware**
-
-- YAML 기반 AI 에이전트 거버넌스 미들웨어 (Policy engine + Approval gates + Audit trail)
-- PyPI: [`agent-aegis`](https://pypi.org/project/agent-aegis/) | 518+ tests | MIT
-- MCP Server Registry 등록: [`io.github.Acacian/aegis`](https://registry.modelcontextprotocol.io/)  
-  MCP 클라이언트(Claude Desktop 등)에서 검색·설치 가능
-- LangChain, CrewAI, OpenAI, Anthropic, MCP 어댑터 지원
-- https://github.com/Acacian/aegis
-
-**Spring AI**
+### Spring AI
 
 - Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
   https://github.com/spring-projects/spring-ai/pull/3809
@@ -35,6 +26,15 @@
 
 Maintainer와 기술적인 논의를 진행했으며, 특히 Deepseek의 경우  
 Maintainer가 직접 Assigned 해서 가져갔습니다.
+
+### Aegis — AI Agent Governance Middleware
+
+- YAML 기반 AI 에이전트 거버넌스 미들웨어 (Policy engine + Approval gates + Audit trail)
+- PyPI: [`agent-aegis`](https://pypi.org/project/agent-aegis/) | 518+ tests | MIT
+- MCP Server Registry 등록: [`io.github.Acacian/aegis`](https://registry.modelcontextprotocol.io/)  
+  MCP 클라이언트(Claude Desktop 등)에서 검색·설치 가능
+- LangChain, CrewAI, OpenAI, Anthropic, MCP 어댑터 지원
+- https://github.com/Acacian/aegis
 
 ---
 
