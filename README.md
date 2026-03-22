@@ -36,6 +36,10 @@ Maintainer가 직접 본인한테 Assigned 해서 할당했습니다.
 - LangChain, CrewAI, OpenAI, Anthropic, MCP 어댑터 지원
 - https://github.com/Acacian/aegis
 
+### kt-pattern  
+Kotlin **Pattern Matching DSL Library**  
+Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
+
 ---
 
 # 📦 Projects
@@ -48,10 +52,6 @@ Java / Spring Boot 기반 결제 서비스 아키텍처 설계 및 구현
 **운영 중인 라이브 서비스** 백엔드에서  
 대용량 미디어 업로드 처리 안정화 및 트러블슈팅 수행  
 외부 AI 추론 서비스 연동 기능 개발 참여
-
-### kt-pattern  
-Kotlin **Pattern Matching DSL Library**  
-Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
 
 ---
 
