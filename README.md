@@ -67,7 +67,8 @@ Backend Engineer Intern
 호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
   https://github.com/spring-projects/spring-ai/pull/3817
 
-Maintainer와 기술적인 논의를 진행했습니다.
+Maintainer와 기술적인 논의를 진행했으며, 특히 Deepseek의 경우
+Maintainer가 직접 Assigned 해서 가져갔습니다.
 
 ---
 
