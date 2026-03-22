@@ -13,6 +13,22 @@
 
 ---
 
+# 🌱 Open Source
+
+**Spring AI**
+
+- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
+  https://github.com/spring-projects/spring-ai/pull/3809
+  
+- DeepSeek tool call 응답에서 content=null 발생 시  
+호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
+  https://github.com/spring-projects/spring-ai/pull/3817
+
+Maintainer와 기술적인 논의를 진행했으며, 특히 Deepseek의 경우
+Maintainer가 직접 Assigned 해서 가져갔습니다.
+
+---
+
 # 📦 Projects
 
 ### PassionPay  
@@ -53,22 +69,6 @@ Backend Engineer Intern
 
 **Republic of Korea Air Force**  
 미션 크리티컬 시스템 운영 환경 경험
-
----
-
-# 🌱 Open Source
-
-**Spring AI**
-
-- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
-  https://github.com/spring-projects/spring-ai/pull/3809
-  
-- DeepSeek tool call 응답에서 content=null 발생 시  
-호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
-  https://github.com/spring-projects/spring-ai/pull/3817
-
-Maintainer와 기술적인 논의를 진행했으며, 특히 Deepseek의 경우
-Maintainer가 직접 Assigned 해서 가져갔습니다.
 
 ---
 
