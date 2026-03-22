@@ -37,8 +37,8 @@ Maintainer가 직접 본인한테 Assigned 해서 할당했습니다.
 - https://github.com/Acacian/aegis
 
 ### kt-pattern  
-Kotlin **Pattern Matching DSL Library**  
-Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
+- Kotlin **Pattern Matching DSL Library**  
+- Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
 
 ---
 
