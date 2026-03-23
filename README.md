@@ -6,9 +6,9 @@
 
 # 구동하 (Dong-ha Koo)
 
-**Backend Engineer — Distributed Architecture**
+**Backend Engineer — Distributed Architecture & AI Governance**
 
-대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드 시스템 설계에  
+대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드 시스템 설계에
 관심이 있으며 신뢰성 있는 서비스 아키텍처와 장애 대응 구조를 설계하는 것을 목표로 합니다.
 
 ---
@@ -17,40 +17,48 @@
 
 ### Spring AI
 
-- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
+- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR
   https://github.com/spring-projects/spring-ai/pull/3809
-  
-- DeepSeek tool call 응답에서 content=null 발생 시  
-호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
+
+- DeepSeek tool call 응답에서 content=null 발생 시
+호환성 문제를 방지하기 위한 fallback 처리 제안 PR
   https://github.com/spring-projects/spring-ai/pull/3817
 
-특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,  
+특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,
 Backport로 반영될 정도로 의미있는 PR이었습니다.
 
 ### Aegis — AI Agent Governance Middleware
 
-- YAML 기반 AI 에이전트 거버넌스 미들웨어 (Policy engine + Approval gates + Audit trail)
-- PyPI: [`agent-aegis`](https://pypi.org/project/agent-aegis/) | 518+ tests | MIT
-- MCP Server Registry 등록: [`io.github.Acacian/aegis`](https://registry.modelcontextprotocol.io/)  
-  MCP 클라이언트(Claude Desktop 등)에서 검색·설치 가능
-- LangChain, CrewAI, OpenAI, Anthropic, MCP 어댑터 지원
-- https://github.com/Acacian/aegis
+[![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
+[![Tests](https://img.shields.io/badge/tests-1642_passed-brightgreen)](https://github.com/Acacian/aegis)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Acacian/aegis/blob/main/LICENSE)
 
-### kt-pattern  
-- Kotlin **Pattern Matching DSL Library**  
+YAML 기반 AI 에이전트 거버넌스 미들웨어 — Policy engine + Approval gates + Audit trail.
+AI 에이전트의 모든 액션을 정책으로 통제하고, 감사 로그를 남기는 Python 라이브러리.
+
+- **Core**: 정책 엔진, 4단계 리스크 모델, 글로브 패턴 매칭, 스마트 조건, 시맨틱 조건
+- **Enterprise**: RBAC, 암호화 감사 체인, 정책 버전 관리, 멀티테넌트 격리, 이상 탐지, 규제 매핑 (EU AI Act / NIST / SOC2 / ISO 42001)
+- **Adapters**: LangChain, CrewAI, OpenAI, Anthropic, MCP, Playwright, httpx
+- **Approval**: CLI, Slack, Discord, Telegram, Email, Webhook
+- **Listed**: [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (merged) | [MCP Registry](https://registry.modelcontextprotocol.io/) | [Glama](https://glama.ai/mcp/servers/@Acacian/aegis)
+
+> https://github.com/Acacian/aegis
+
+### kt-pattern
+- Kotlin **Pattern Matching DSL Library**
 - Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
 
 ---
 
 # 📦 Projects
 
-### PassionPay  
-MSA 기반 **핀테크 결제 플랫폼** (Project Lead)  
+### PassionPay
+MSA 기반 **핀테크 결제 플랫폼** (Project Lead)
 Java / Spring Boot 기반 결제 서비스 아키텍처 설계 및 구현
 
-### Insty  
-**운영 중인 라이브 서비스** 백엔드에서  
-대용량 미디어 업로드 처리 안정화 및 트러블슈팅 수행  
+### Insty
+**운영 중인 라이브 서비스** 백엔드에서
+대용량 미디어 업로드 처리 안정화 및 트러블슈팅 수행
 외부 AI 추론 서비스 연동 기능 개발 참여
 
 ---
@@ -60,23 +68,24 @@ Java / Spring Boot 기반 결제 서비스 아키텍처 설계 및 구현
 - 분산 환경에서의 서비스 신뢰성
 - 장애 격리 및 복구 전략 (Circuit Breaker, Retry)
 - 분산 시스템 데이터 정합성
+- AI 에이전트 거버넌스 & 안전성
 - 운영 환경 트러블슈팅 및 시스템 안정화
 
 ---
 
 # 💼 Experience
 
-**Koosstech**  
+**Koosstech**
 Backend & DevOps Engineer (End-to-End Ownership)
 
-**MementoAI**  
+**MementoAI**
 Backend Engineer Intern
 
 ---
 
 # 🎖 Military Service
 
-**Republic of Korea Air Force**  
+**Republic of Korea Air Force**
 미션 크리티컬 시스템 운영 환경 경험
 
 ---
@@ -85,21 +94,21 @@ Backend Engineer Intern
 
 기술적인 고민과 트러블슈팅 과정은 블로그에 정리하고 있습니다.
 
-Tech Blog  
+Tech Blog
 https://victorica.tistory.com/
 
 Topics
 
-- Redis 없는 화이트박스 모니터링 설계  
-- 분산 시스템 데이터 정합성  
-- Circuit Breaker 구현과 장애 격리 전략  
+- Redis 없는 화이트박스 모니터링 설계
+- 분산 시스템 데이터 정합성
+- Circuit Breaker 구현과 장애 격리 전략
 
 ---
 
 # 📫 Contact
 
-📧 Email  
-koo9811@naver.com  
+📧 Email
+koo9811@naver.com
 
-💼 LinkedIn  
+💼 LinkedIn
 https://linkedin.com/in/otkling
