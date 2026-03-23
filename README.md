@@ -17,14 +17,14 @@
 
 ### Spring AI
 
-- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR
+- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
   https://github.com/spring-projects/spring-ai/pull/3809
 
-- DeepSeek tool call 응답에서 content=null 발생 시
-호환성 문제를 방지하기 위한 fallback 처리 제안 PR
+- DeepSeek tool call 응답에서 content=null 발생 시  
+  호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
   https://github.com/spring-projects/spring-ai/pull/3817
-
-특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,
+  
+특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,  
 Backport로 반영될 정도로 의미있는 PR이었습니다.
 
 ### Aegis — AI Agent Governance Middleware
