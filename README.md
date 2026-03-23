@@ -33,7 +33,7 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 [![Tests](https://img.shields.io/badge/tests-1642_passed-brightgreen)](https://github.com/Acacian/aegis)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Acacian/aegis/blob/main/LICENSE)
 
-YAML 기반 AI 에이전트 거버넌스 미들웨어 — Policy engine + Approval gates + Audit trail.
+YAML 기반 AI 에이전트 거버넌스 미들웨어 — Policy engine + Approval gates + Audit trail.  
 AI 에이전트의 모든 액션을 정책으로 통제하고, 감사 로그를 남기는 Python 라이브러리.
 
 - **Core**: 정책 엔진, 4단계 리스크 모델, 글로브 패턴 매칭, 스마트 조건, 시맨틱 조건
