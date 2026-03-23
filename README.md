@@ -31,16 +31,18 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 
 [![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
 [![Tests](https://img.shields.io/badge/tests-1642_passed-brightgreen)](https://github.com/Acacian/aegis)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Acacian/aegis/blob/main/LICENSE)
 
-YAML 기반 AI 에이전트 거버넌스 미들웨어 — Policy engine + Approval gates + Audit trail.  
-AI 에이전트의 모든 액션을 정책으로 통제하고, 감사 로그를 남기는 Python 라이브러리.
+AI 에이전트가 실행하는 모든 액션에 정책 평가 → 승인 게이트 → 감사 로그를 거치게 하는  
+Python 미들웨어. 단독 설계·구현.
 
-- **Core**: 정책 엔진, 4단계 리스크 모델, 글로브 패턴 매칭, 스마트 조건, 시맨틱 조건
-- **Enterprise**: RBAC, 암호화 감사 체인, 정책 버전 관리, 멀티테넌트 격리, 이상 탐지, 규제 매핑 (EU AI Act / NIST / SOC2 / ISO 42001)
-- **Adapters**: LangChain, CrewAI, OpenAI, Anthropic, MCP, Playwright, httpx
-- **Approval**: CLI, Slack, Discord, Telegram, Email, Webhook
-- **Listed**: [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) (merged) | [MCP Registry](https://registry.modelcontextprotocol.io/) | [Glama](https://glama.ai/mcp/servers/@Acacian/aegis)
+- **별도 서버 없이 `pip install` 한 줄로 거버넌스 적용** — 플랫폼이 아닌 라이브러리로 설계해
+  기존 에이전트 코드에 침투 없이 통합. 필수 의존성은 PyYAML 하나.
+- **정책 엔진은 iptables/nginx와 같은 first-match-wins** — 글로브 패턴 매칭으로
+  평가 < 1ms. 컴파일된 정규식 캐싱으로 반복 평가 오버헤드 최소화.
+- **7개 AI 프레임워크 어댑터를 lazy import로 구현** — 사용하지 않는 프레임워크의
+  import 비용을 0으로 유지하면서도 단일 패키지로 배포.
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) 등재 |
+  1,642 tests | mypy strict
 
 > https://github.com/Acacian/aegis
 
