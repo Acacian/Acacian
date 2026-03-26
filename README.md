@@ -27,22 +27,16 @@
 특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,  
 Backport로 반영될 정도로 의미있는 PR이었습니다.
 
-### Aegis — AI Agent Governance Middleware
+### Aegis — Runtime Security for AI Agents
 
 [![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
-[![Tests](https://img.shields.io/badge/tests-1642_passed-brightgreen)](https://github.com/Acacian/aegis)
+[![Tests](https://img.shields.io/badge/tests-3860%2B_passed-brightgreen)](https://github.com/Acacian/aegis)
 
-AI 에이전트가 실행하는 모든 액션에 정책 평가 → 승인 게이트 → 감사 로그를 거치게 하는  
-Python 미들웨어. 단독 설계·구현.
+AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail + 정책 엔진 + 감사 로그를 적용하는 Python 라이브러리. 단독 설계·구현.
 
-- **별도 서버 없이 `pip install` 한 줄로 거버넌스 적용** — 플랫폼이 아닌 라이브러리로 설계해  
-  기존 에이전트 코드에 침투 없이 통합. 필수 의존성은 PyYAML 하나.
-- **정책 엔진은 iptables/nginx와 같은 first-match-wins** — 글로브 패턴 매칭으로  
-  평가 < 1ms. 컴파일된 정규식 캐싱으로 반복 평가 오버헤드 최소화.
-- **7개 AI 프레임워크 어댑터를 lazy import로 구현** — 사용하지 않는 프레임워크의  
-  import 비용을 0으로 유지하면서도 단일 패키지로 배포.
-- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) 등재 |  
-  1,642 tests | mypy strict
+- **`import aegis; aegis.auto_instrument()`** 한 줄로 11개 프레임워크 런타임 보안 적용 (LangChain, CrewAI, OpenAI 등)
+- Prompt injection 차단 (100+ 패턴), PII 탐지/마스킹 (12 카테고리), MCP rug-pull 탐지 (SHA-256 핀)
+- 정책 평가 < 1ms, 필수 의존성 PyYAML 하나, 3,860+ tests, mypy strict
 
 > https://github.com/Acacian/aegis
 
