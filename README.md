@@ -35,17 +35,7 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진,  
 감사 로그를 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
 
-- **`import aegis; aegis.auto_instrument()`**  
-한 줄로 11개 프레임워크 런타임 보안 적용 (LangChain, CrewAI, OpenAI 등)
-- Prompt injection 차단 (100+ 패턴), PII 탐지/마스킹 (12 카테고리),  
-MCP rug-pull 탐지 (SHA-256 핀)
-- 정책 평가 < 1ms, 필수 의존성 PyYAML 하나, 3,860+ tests, mypy strict
-
 > https://github.com/Acacian/aegis
-
-### kt-pattern
-- Kotlin **Pattern Matching DSL Library**
-- Kotlin `when` 분기의 한계를 보완하기 위한 선언형 패턴 매칭 라이브러리
 
 ---
 
