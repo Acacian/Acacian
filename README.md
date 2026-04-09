@@ -29,8 +29,8 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 [![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
 [![Tests](https://img.shields.io/badge/tests-3860%2B_passed-brightgreen)](https://github.com/Acacian/aegis)
 
-AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진,  
-감사 로그를 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
+AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진, 감사 로그를  
+CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
 
 > https://github.com/Acacian/aegis
 
