@@ -27,10 +27,16 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 ### Aegis — Runtime Security for AI Agents
 
 [![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
-[![Tests](https://img.shields.io/badge/tests-3860%2B_passed-brightgreen)](https://github.com/Acacian/aegis)
+[![Tests](https://img.shields.io/badge/tests-6100%2B_passed-brightgreen)](https://github.com/Acacian/aegis)
 
 AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진, 감사 로그를  
 CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
+
+12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM, Google ADK 등)를 자동 계측하며,  
+정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한 전체 lifecycle을 다룹니다.
+
+큐레이션 리스트 [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP)의  
+[PR #105](https://github.com/CryptoAILab/Awesome-LM-SSP/pull/105)이 merge되어 Toolkit 섹션에 등재되었습니다.
 
 > https://github.com/Acacian/aegis
 
