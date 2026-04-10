@@ -33,7 +33,7 @@ AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 
 CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
 
 12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM 등)를 자동 계측하며,  
-정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한
+정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한  
 전체 lifecycle을 다룹니다.
 
 큐레이션 리스트 [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP)의  
