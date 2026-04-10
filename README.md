@@ -32,12 +32,14 @@ Backport로 반영될 정도로 의미있는 PR이었습니다.
 AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진, 감사 로그를  
 CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
 
-12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM 등)를 자동 계측하며,  
-정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한  
-전체 lifecycle을 다룹니다.
+12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM, Google ADK 등)를 자동 계측하며,  
+정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한 전체 lifecycle을 다룹니다.
 
-큐레이션 리스트 [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP)의  
-[PR #105](https://github.com/CryptoAILab/Awesome-LM-SSP/pull/105)이 merge되어 Toolkit 섹션에 등재되었습니다.
+외부 큐레이션 리스트에 다음과 같이 등재되었습니다:
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Security 섹션  
+  ([PR #3694](https://github.com/punkpeye/awesome-mcp-servers/pull/3694), maintainer 직접 merge)
+- [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP) — Toolkit 섹션  
+  ([PR #105](https://github.com/CryptoAILab/Awesome-LM-SSP/pull/105), LLM Security & Privacy 큐레이션)
 
 > https://github.com/Acacian/aegis
 
