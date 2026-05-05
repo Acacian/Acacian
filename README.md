@@ -36,6 +36,8 @@ CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 
 정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한 전체 lifecycle을 다룹니다.
 
 외부 큐레이션 리스트에 다음과 같이 등재되었습니다:
+- **[Pydantic AI 공식 문서](https://ai.pydantic.dev/)** 등재  
+  ([PR #4888](https://github.com/pydantic/pydantic-ai/pull/4888))
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Security 섹션  
   ([PR #3694](https://github.com/punkpeye/awesome-mcp-servers/pull/3694), maintainer 직접 merge)
 - [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP) — Toolkit 섹션  
