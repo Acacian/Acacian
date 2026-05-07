@@ -14,15 +14,16 @@
 
 ### Spring AI
 
-- Redis / Vector 관련 테스트 구조 개선 제안 및 피드백 PR  
+- RedisVectorStore BuilderCustomizer 확장 PR (open, 메인테이너 ilayaperumalg/markpollack 코멘트 참여)  
   https://github.com/spring-projects/spring-ai/pull/3809
 
 - DeepSeek tool call 응답에서 content=null 발생 시  
   호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
   https://github.com/spring-projects/spring-ai/pull/3817
-  
-특히 Deepseek PR의 경우 Maintainer가 직접 본인한테 Assigned 해서 할당했으며,  
-Backport로 반영될 정도로 의미있는 PR이었습니다.
+
+특히 DeepSeek PR의 경우 메인테이너(ilayaperumalg)가 직접 self-assign하고  
+`for: backport-to-1.0.x` 백포트 후보 라벨까지 부여한 케이스로,  
+메인테이너 측에서 적극적으로 검토했던 PR입니다.
 
 ### Aegis — Runtime Security for AI Agents
 
