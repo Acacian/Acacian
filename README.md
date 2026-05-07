@@ -35,13 +35,15 @@ CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 
 12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM, Google ADK 등)를 자동 계측하며,  
 정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한 전체 lifecycle을 다룹니다.
 
-외부 큐레이션 리스트에 다음과 같이 등재되었습니다:
-- **[Pydantic AI 공식 문서](https://ai.pydantic.dev/)** 등재  
-  ([PR #4888](https://github.com/pydantic/pydantic-ai/pull/4888))
+외부 등재 및 OSS 메인테이너 리뷰 트랙레코드:
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Security 섹션  
   ([PR #3694](https://github.com/punkpeye/awesome-mcp-servers/pull/3694), maintainer 직접 merge)
 - [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP) — Toolkit 섹션  
   ([PR #105](https://github.com/CryptoAILab/Awesome-LM-SSP/pull/105), LLM Security & Privacy 큐레이션)
+- **Pydantic AI** third-party capabilities — PR #4888 머지  
+  메인테이너 DouweM 리뷰 승인 → Kludex가 Guardrails & Safety 섹션 배치 → 머지  
+  ([PR #4888](https://github.com/pydantic/pydantic-ai/pull/4888))  
+  ※ Pydantic 측 third-party 등재 popularity 정책에 따라 현재 docs 미게재
 
 > https://github.com/Acacian/aegis
 
