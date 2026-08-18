@@ -1,114 +1,63 @@
-# :octocat: Welcome to Acacian's Github!
+# Acacian
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
----
-**Backend Engineer — Distributed Architecture & AI Governance**
+> **Backend engineer — reliable, secure infrastructure for AI systems**
+> distributed reliability · data consistency · runtime correctness, security & cost accuracy for LLM / agent platforms
 
-대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드 시스템 설계에  
-관심이 있으며 신뢰성 있는 서비스 아키텍처와 장애 대응 구조를 설계하는 것을 목표로 합니다.
+🌍 **Based in South Korea — open to global roles (remote or relocation)**
 
----
+<details>
+<summary>🇰🇷 한국어 소개</summary>
 
-# 🌱 Open Source
+대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드를 설계하고,
+**LLM/에이전트 플랫폼의 런타임 정확성·보안·비용**을 다룹니다. 리모트·이주 모두 가능하며 글로벌 포지션을 찾고 있습니다.
 
-### Spring AI
-
-- RedisVectorStore BuilderCustomizer 확장 PR (open, 메인테이너 ilayaperumalg/markpollack 코멘트 참여)  
-  https://github.com/spring-projects/spring-ai/pull/3809
-
-- DeepSeek tool call 응답에서 content=null 발생 시  
-  호환성 문제를 방지하기 위한 fallback 처리 제안 PR  
-  https://github.com/spring-projects/spring-ai/pull/3817
-
-특히 DeepSeek PR의 경우 메인테이너(ilayaperumalg)가 직접 self-assign하고  
-`for: backport-to-1.0.x` 백포트 후보 라벨까지 부여한 케이스로,  
-메인테이너 측에서 적극적으로 검토했던 PR입니다.
-
-### Aegis — Runtime Security for AI Agents
-
-[![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/)
-[![Tests](https://img.shields.io/badge/tests-6100%2B_passed-brightgreen)](https://github.com/Acacian/aegis)
-
-AI 에이전트의 모든 LLM 호출과 tool 실행에 보안 guardrail, 정책 엔진, 감사 로그를  
-CI/CD Layer에서 적용하는 Python 라이브러리이며 단독으로 설계 및 구현했습니다.
-
-12개 AI 프레임워크(LangChain, CrewAI, OpenAI, Anthropic, LiteLLM, Google ADK 등)를 자동 계측하며,  
-정책 CI/CD (`aegis plan`, `aegis test`)와 ungoverned AI call 스캐너를 포함한 전체 lifecycle을 다룹니다.
-
-외부 등재 및 OSS 메인테이너 리뷰 트랙레코드:
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Security 섹션  
-  ([PR #3694](https://github.com/punkpeye/awesome-mcp-servers/pull/3694), maintainer 직접 merge)
-- [CryptoAILab/Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP) — Toolkit 섹션  
-  ([PR #105](https://github.com/CryptoAILab/Awesome-LM-SSP/pull/105), LLM Security & Privacy 큐레이션)
-- **Pydantic AI** third-party capabilities — PR #4888 머지  
-  메인테이너 DouweM 리뷰 승인 → Kludex가 Guardrails & Safety 섹션 배치 → 머지  
-  ([PR #4888](https://github.com/pydantic/pydantic-ai/pull/4888))  
-  ※ Pydantic 측 third-party 등재 popularity 정책에 따라 현재 docs 미게재
-
-> https://github.com/Acacian/aegis
+</details>
 
 ---
 
-# 📦 Projects
+## 🛡 Built — Aegis, runtime security for AI agents
 
-### PassionPay
-MSA 기반 **핀테크 결제 플랫폼** (Project Lead)
-Java / Spring Boot 기반 결제 서비스 아키텍처 설계 및 구현
+[![PyPI](https://img.shields.io/pypi/v/agent-aegis?color=blue)](https://pypi.org/project/agent-aegis/) · [github.com/Acacian/aegis](https://github.com/Acacian/aegis)
 
-### Insty
-**운영 중인 라이브 서비스** 백엔드에서
-대용량 미디어 업로드 처리 안정화 및 트러블슈팅 수행
-외부 AI 추론 서비스 연동 기능 개발 참여
+Solo-designed Python library that enforces guardrails, a policy engine, and audit logging on every LLM call and tool execution — at the CI/CD layer. Auto-instruments 12 AI frameworks (LangChain, CrewAI, OpenAI, Anthropic, LiteLLM, Google ADK …).
 
----
+```mermaid
+flowchart LR
+  C["LLM call / tool exec"] --> AE["Aegis"]
+  AE --> GR["Guardrails"]
+  AE --> PO["Policy engine"]
+  AE --> AU["Audit log"]
+  AE --> D{"allow / block"}
+```
 
-# 🎯 Engineering Focus
+<sub>Integrates as a third-party guardrail provider for Pydantic AI and LiteLLM · listed in [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) and [Awesome-LM-SSP](https://github.com/CryptoAILab/Awesome-LM-SSP).</sub>
 
-- 분산 환경에서의 서비스 신뢰성
-- 장애 격리 및 복구 전략 (Circuit Breaker, Retry)
-- 분산 시스템 데이터 정합성
-- AI 에이전트 거버넌스 & 안전성
-- 운영 환경 트러블슈팅 및 시스템 안정화
+## 🔧 Contributing to AI-infra OSS
 
----
+Fixing real correctness & cost bugs in the tools I use in production:
+- **litellm** — bill xAI from its reported cost instead of stale recomputation ([#36281](https://github.com/BerriAI/litellm/pull/36281))
+- **Spring AI** — DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809))
 
-# 💼 Experience
+## 🏗 Current work
 
-**Koosstech**
-Backend & DevOps Engineer (End-to-End Ownership)
+In production today — backend for an enterprise **LLM gateway / AI-security platform** (Soosan): proxy request lifecycle, DLP and guardrail enforcement, cross-provider correctness, policy & audit paths, load and reliability testing.
 
-**MementoAI**
-Backend Engineer Intern
+## 📦 Also shipped
 
----
+**CandyPod** — backend engineer on a mobile matching app, live on the App Store and Google Play.
 
-# 🎖 Military Service
+## 🎯 Focus
 
-**Republic of Korea Air Force**
-미션 크리티컬 시스템 운영 환경 경험
+`distributed reliability` · `fault isolation & recovery` · `data consistency` · `LLM / agent runtime security` · `cross-provider correctness & cost accuracy` · `AI-native system design`
 
----
+## 💼 Experience
 
-# ✍️ Writing
+**Soosan** (current) · **Koosstech** — Backend & DevOps (E2E ownership) · **MementoAI** — Backend (intern) · **ROK Air Force** — mission-critical systems operations
 
-기술적인 고민과 트러블슈팅 과정은 블로그에 정리하고 있습니다.
+<sub>Earlier: **PassionPay** — MSA fintech payments platform (lead), payment-service architecture & consistency design.</sub>
 
-Tech Blog
-https://victorica.tistory.com/
+## ✍️ Writing · 📫 Contact
 
-Topics
-
-- Redis 없는 화이트박스 모니터링 설계
-- 분산 시스템 데이터 정합성
-- Circuit Breaker 구현과 장애 격리 전략
-
----
-
-# 📫 Contact
-
-📧 Email
-koo9811@naver.com
-
-💼 LinkedIn
-https://linkedin.com/in/otkling
+Tech blog → https://victorica.tistory.com/ &nbsp;·&nbsp; 📧 koo9811@naver.com &nbsp;·&nbsp; 💼 [linkedin.com/in/otkling](https://linkedin.com/in/otkling)
