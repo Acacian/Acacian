@@ -54,7 +54,10 @@ In production today — backend for an enterprise **LLM gateway / AI-security pl
 
 ## 💼 Experience
 
-**Soosan** (current) · **Koosstech** — Backend & DevOps (E2E ownership) · **MementoAI** — Backend (intern) · **ROK Air Force** — mission-critical systems operations
+- **Soosan** (current)
+- **Koosstech** — Backend & DevOps (E2E ownership)
+- **MementoAI** — Backend (intern)
+- **ROK Air Force** — mission-critical systems operations
 
 <sub>Earlier: **PassionPay** — MSA fintech payments platform (lead), payment-service architecture & consistency design.</sub>
 
