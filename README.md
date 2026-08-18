@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 
-> **Backend engineer — reliable, secure infrastructure for AI systems**
+> **Backend engineer — reliable, secure infrastructure for AI systems**  
 > distributed reliability · data consistency · runtime correctness, security & cost accuracy for LLM / agent platforms
 
 🌍 **Based in South Korea — open to global roles (remote or relocation)**
@@ -10,7 +10,7 @@
 <details>
 <summary>🇰🇷 한국어 소개</summary>
 
-대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드를 설계하고,
+대규모 서비스 환경에서 **신뢰성과 데이터 정합성**을 고려한 백엔드를 설계하고,  
 **LLM/에이전트 플랫폼의 런타임 정확성·보안·비용**을 다룹니다. 리모트·이주 모두 가능하며 글로벌 포지션을 찾고 있습니다.
 
 </details>
