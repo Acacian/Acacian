@@ -19,7 +19,7 @@
 
 ## 🔧 Merged upstream — billing correctness in LiteLLM
 
-[PR #36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [**#39441**](https://github.com/BerriAI/litellm/pull/39441) · 26 days · commit authorship preserved
+[PR #36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [**#39441**](https://github.com/BerriAI/litellm/pull/39441) · commit authorship preserved
 
 Our production gateway runs on a LiteLLM fork, where xAI calls were billed from an internal rate table nobody could keep current — 7 server-side tool counters with 1 priced, and one model billed at multiples of real cost for 6+ weeks. I made the cost the provider itself reports the source of truth, and fenced the boundary that now trusts a response body: documented shape only, else fall back. `NaN` mattered most — it passes *every* budget threshold comparison, so one bad field disables budget enforcement for that key entirely.
 
@@ -30,7 +30,7 @@ flowchart LR
   V -- "missing / NaN / out of range" --> F["fall back to<br/>tokens × internal rate table"]
 ```
 
-<sub>Merged into a repo with 3,000+ open PRs where outside contributors account for under 2% of merges. Also filed upstream — **Spring AI**: DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809), in review).</sub>
+<sub>Also filed upstream — **Spring AI**: DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809), in review).</sub>
 
 ## 🏗 Current work — enterprise LLM gateway / AI-security platform
 
