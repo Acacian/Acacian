@@ -2,7 +2,8 @@
 
 Backend engineer working on reliability, data consistency, and runtime security for LLM / agent platforms.
 
-정합성이 걸린 자리에서 트레이드오프를 정하고 그 결정을 책임지는 일을 합니다. 터지면서 알려주는 실패보다, 조용히 틀리는 실패를 찾는 데 시간을 씁니다.
+정합성이 걸린 자리에서 트레이드오프를 정하고 그 결정을 책임지는 일을 합니다.  
+터지면서 알려주는 실패보다, 조용히 틀리는 실패를 찾는 데 시간을 씁니다.
 
 [Blog](https://victorica.tistory.com/) · [LinkedIn](https://linkedin.com/in/otkling) · [Email](mailto:koo9811@naver.com)
 
