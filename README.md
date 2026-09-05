@@ -15,17 +15,17 @@ Backend engineer working on reliability, data consistency, and runtime security 
 | Koosstech | Backend & DevOps — R&D, closed-network ERP with KRRI | 24.12 ~ 26.05 |
 | Memento AI | Backend Developer (intern) | 24.10 ~ 24.11 |
 
+## Also involved in
+
+- [**litellm**](https://github.com/BerriAI/litellm) — billing xAI from the cost it reports instead of recomputing it ([#36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [#39441](https://github.com/BerriAI/litellm/pull/39441))
+- [**Spring AI**](https://github.com/spring-projects/spring-ai) — DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809))
+
 ## Building
 
 | Project | What it does |
 |:---|:---|
 | [**Aegis**](https://github.com/Acacian/aegis) | Guardrails, a policy engine, and audit logging on every LLM call and tool execution. Auto-instruments 12 frameworks. [PyPI](https://pypi.org/project/agent-aegis/) |
 | [**CandyPod**](https://apps.apple.com/kr/app/candypod/id6752270848) | Backend for a K-POP fan matching app, live on the App Store and Google Play. |
-
-## Also involved in
-
-- [**litellm**](https://github.com/BerriAI/litellm) — billing xAI from the cost it reports instead of recomputing it ([#36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [#39441](https://github.com/BerriAI/litellm/pull/39441))
-- [**Spring AI**](https://github.com/spring-projects/spring-ai) — DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809))
 
 ## Writing
 
