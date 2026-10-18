@@ -17,8 +17,10 @@ Backend engineer working on reliability, data consistency, and runtime security 
 
 ## Also involved in
 
-- [**litellm**](https://github.com/BerriAI/litellm) — billing xAI from the cost it reports instead of recomputing it ([#36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [#39441](https://github.com/BerriAI/litellm/pull/39441)) · keeping provider response headers on SDK streaming errors ([#41528](https://github.com/BerriAI/litellm/pull/41528))
-- [**Spring AI**](https://github.com/spring-projects/spring-ai) — DeepSeek tool-call `content=null` fallback ([#3817](https://github.com/spring-projects/spring-ai/pull/3817)) · RedisVectorStore `BuilderCustomizer` ([#3809](https://github.com/spring-projects/spring-ai/pull/3809))
+| Project | Contribution | Merged |
+|:---|:---|:---|
+| [**litellm**](https://github.com/BerriAI/litellm) | Billing xAI from the cost it reports instead of recomputing it ([#36281](https://github.com/BerriAI/litellm/pull/36281) → merged as [#39441](https://github.com/BerriAI/litellm/pull/39441)) | 26.09 |
+| [**litellm**](https://github.com/BerriAI/litellm) | Keeping provider response headers on SDK streaming errors ([#41528](https://github.com/BerriAI/litellm/pull/41528)) | 26.10 |
 
 ## Building
 
