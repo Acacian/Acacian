@@ -15,7 +15,7 @@ Backend engineer working on reliability, data consistency, and runtime security 
 | Koosstech | Backend & DevOps — R&D, closed-network ERP with KRRI | 24.12 ~ 26.05 |
 | Memento AI | Backend Developer (intern) | 24.10 ~ 24.11 |
 
-## Also involved in
+## Open Source
 
 | Project | Contribution | Merged |
 |:---|:---|:---|
