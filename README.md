@@ -1,6 +1,7 @@
 <h2>구동하 (Dongha Koo)</h2>
 
-Backend engineer on an enterprise LLM gateway — keeping security checks, billing, and audit logs consistent with what requests actually do.
+Backend engineer on an enterprise LLM gateway —  
+keeping security checks, billing, and audit logs consistent with what requests actually do.
 
 정합성이 걸린 자리에서 트레이드오프를 정하고 그 결정을 책임지는 일을 합니다.  
 터지면서 알려주는 실패보다, 조용히 틀리는 실패를 찾는 데 시간을 씁니다.
@@ -17,8 +18,8 @@ Backend engineer on an enterprise LLM gateway — keeping security checks, billi
 
 At eSafeAI:
 
-- Designed MCP connectors so tool calls go through the existing inspection and billing path, failing closed
-- Find and fix places where inspection, billing, or audit records drift from what a request actually did
+- MCP connectors that keep tool calls inside inspection and billing, failing closed
+- Fixing where inspection, billing, or audit logs drift from what requests actually did
 - Load-limit testing and on-site deployment for financial-sector customers
 
 ## Open Source (Merged PRs Only)
